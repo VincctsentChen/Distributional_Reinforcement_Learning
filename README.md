@@ -20,13 +20,10 @@ risk, variability, and tail behavior, enabling more informative clinical decisio
 - **`s11_distributional_reinforcement_learning.py`** – master script that computes the
   return distribution for all `(state, action)` pairs and runs the DRL workflow.
 
-> Tip: keep experiment configs and outputs under `experiments/` (e.g., logs, seeds, plots).
-
 ---
 
 ## Getting Started
 1. **Clone** the repo and enter the project directory.
-2. (Optional) **Create a virtual env** and install your dependencies.
-3. **Run the master script**:
+2. **Run the master script**:
    ```bash
    python s11_distributional_reinforcement_learning.py
